@@ -26,6 +26,8 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 */
 
+#ifdef ESP8266 // only for ESP8266
+
 #ifndef _ESPSAVECRASH_H_
 #define _ESPSAVECRASH_H_
 
@@ -102,3 +104,5 @@ class EspSaveCrash
 //#endif
 
 #endif //_ESPSAVECRASH_H_
+
+#endif // ESP8266
